@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MariaLuisa Sal y Dulce</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background-color: #f8b195;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #f67280;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .about, .gallery, .contact {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .gallery img {
+      width: calc(50% - 10px);
+      margin: 5px;
+      border-radius: 8px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact input, .contact textarea {
+      margin: 8px 0;
+      padding: 10px;
+      font-size: 1rem;
+    }
+    .contact button {
+      background-color: #f8b195;
+      border: none;
+      color: white;
+      padding: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background: #355c7d;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MariaLuisa Sal y Dulce</h1>
+    <p>Amor y sabor en cada bocado</p>
+  </header>
+
+  <nav>
+    <a href="#about">Nosotros</a>
+    <a href="#gallery">Galería</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <img src="https://via.placeholder.com/800x400.png?text=Foto+de+tu+producto" alt="Producto destacado" />
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre nosotros</h2>
+    <p>
+      Bienvenidos a MariaLuisa Sal y Dulce. Creamos tortas y postres saludables sin sacrificar el sabor.  
+      Nos apasiona brindar dulzura con ingredientes más conscientes.
+    </p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Galería</h2>
+    <div>
+      <img src="https://via.placeholder.com/400.png?text=Producto+1" alt="Producto 1" />
+      <img src="https://via.placeholder.com/400.png?text=Producto+2" alt="Producto 2" />
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/400.png?text=Producto+3" alt="Producto 3" />
+      <img src="https://via.placeholder.com/400.png?text=Producto+4" alt="Producto 4" />
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>Síguenos en Instagram: <a href="https://www.instagram.com/marialuisasalydulce" target="_blank">@marialuisasalydulce</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MariaLuisa Sal y Dulce. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
